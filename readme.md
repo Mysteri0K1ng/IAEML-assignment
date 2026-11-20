@@ -1,5 +1,7 @@
 # IAEML - Assignment
 
+**Vehicle environment, PPO, reports, videos and reproduction commands: [assignment solution](README_ASSIGNMENT.md).**
+
 This repository was specifically designed to practice and implement the concepts covered in IAEML course at Innopolis University. [Vehicular automation](https://en.wikipedia.org/wiki/Vehicular_automation) is a notable challenging domain where these concepts can be applied.
 
 Specifically, in this repository we have a simple 2D environment with an agent, destination and obstacles to avoid. The obstacles can be either static or moving. For simplicity, all objects are modeled as circles with radius $r=1$.

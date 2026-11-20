@@ -1,0 +1,26 @@
+{
+  "num_envs": 32,
+  "steps": 128,
+  "repeats": 5,
+  "first_call_seconds": 0.39371550000214484,
+  "compiled_seconds": [
+    0.007482000000891276,
+    0.007341499993344769,
+    0.008067300004768185,
+    0.007717400003457442,
+    0.007561899998108856
+  ],
+  "mean_compiled_seconds": 0.007634020000114106,
+  "python_loop_seconds": 0.027432820000103674,
+  "python_loop_repeats_seconds": [
+    0.027370900003006682,
+    0.027602599991951138,
+    0.026351599997724406,
+    0.027159600009326823,
+    0.028679399998509325
+  ],
+  "compiled_steps_per_second": 536545.6207789313,
+  "python_to_compiled_ratio": 3.5934959562188253,
+  "device": "cpu:0",
+  "note": "Environment only; both paths retain rewards and all observations, include absorbing states and dispatch, and exclude resets and PPO. Python loop includes output stacking."
+}

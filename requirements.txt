@@ -1,8 +1,12 @@
-jax
-chex
-optax
-equinox
-flax        # use flax or equinox
-
-numpy
-pygame
+jax==0.12.0.1
+jaxlib==0.12.0.1
+equinox==0.13.8
+chex==0.1.92
+optax==0.2.8
+numpy==2.5.4
+matplotlib==3.11.2
+imageio==2.38.1
+imageio-ffmpeg==0.7.0
+pillow==13.0.0
+pytest==9.2.0
+pygame==2.6.1

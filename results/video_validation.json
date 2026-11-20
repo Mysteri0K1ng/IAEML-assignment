@@ -1,0 +1,44 @@
+{
+  "environment": {
+    "metadata": {
+      "plugin": "ffmpeg",
+      "nframes": null,
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 10.0,
+      "source_size": [
+        960,
+        800
+      ],
+      "size": [
+        960,
+        800
+      ],
+      "rotate": 0,
+      "duration": 8.1
+    },
+    "frames": 81
+  },
+  "learned": {
+    "metadata": {
+      "plugin": "ffmpeg",
+      "nframes": null,
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 10.0,
+      "source_size": [
+        960,
+        800
+      ],
+      "size": [
+        960,
+        800
+      ],
+      "rotate": 0,
+      "duration": 5.7
+    },
+    "frames": 57
+  }
+}

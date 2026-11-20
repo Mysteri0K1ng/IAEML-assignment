@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "config": {
+    "seed": 0,
+    "updates": 300,
+    "num_envs": 32,
+    "rollout_steps": 128,
+    "epochs": 4,
+    "minibatch_size": 512,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.2,
+    "value_coefficient": 0.5,
+    "entropy_coefficient": 0.001,
+    "max_grad_norm": 0.5,
+    "hidden_size": 64,
+    "map_id": 3
+  },
+  "environment": {
+    "map_height_width": [
+      20,
+      24
+    ],
+    "max_steps_in_episode": 240,
+    "fps": 10,
+    "substeps": 4,
+    "wheelbase": 1.6,
+    "rear_fraction": 0.5,
+    "max_speed": 4.0,
+    "max_acceleration": 3.0,
+    "max_steer": 0.6,
+    "steer_rate": 1.5,
+    "rolling_drag": 0.15,
+    "quadratic_drag": 0.04,
+    "num_ray_sensors": 16,
+    "perception_radius": 8.0,
+    "agent_FOV": 3.141592653589793,
+    "path_length": 100,
+    "randomize_reset": true
+  }
+}

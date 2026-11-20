@@ -1,0 +1,9 @@
+{
+  "policy": "heuristic",
+  "seed": 0,
+  "steps": 70,
+  "return": 54.32155286706984,
+  "success": true,
+  "collision": false,
+  "truncated": false
+}

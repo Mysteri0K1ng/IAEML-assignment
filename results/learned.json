@@ -1,0 +1,9 @@
+{
+  "policy": "learned",
+  "seed": 0,
+  "steps": 46,
+  "return": 53.33568503521383,
+  "success": true,
+  "collision": false,
+  "truncated": false
+}

@@ -1,0 +1,17 @@
+{
+  "policy": "random",
+  "checkpoint": null,
+  "episodes": 128,
+  "seed_start": 1000,
+  "seed_end": 1127,
+  "map_id": 3,
+  "successes": 1,
+  "collisions": 99,
+  "timeouts": 28,
+  "success_rate": 0.0078125,
+  "collision_rate": 0.7734375,
+  "mean_return": 0.25984105467796326,
+  "std_return": 11.526591300964355,
+  "mean_length": 160.5625,
+  "mean_final_distance": 9.282188415527344
+}

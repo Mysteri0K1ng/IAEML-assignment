@@ -1,0 +1,17 @@
+{
+  "policy": "learned",
+  "checkpoint": "results/ppo_seed1/policy.npz",
+  "episodes": 128,
+  "seed_start": 1000,
+  "seed_end": 1127,
+  "map_id": 3,
+  "successes": 119,
+  "collisions": 9,
+  "timeouts": 0,
+  "success_rate": 0.9296875,
+  "collision_rate": 0.0703125,
+  "mean_return": 51.029212951660156,
+  "std_return": 13.654526710510254,
+  "mean_length": 46.546875,
+  "mean_final_distance": 1.4425582885742188
+}
