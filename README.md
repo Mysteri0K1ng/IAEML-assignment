@@ -99,18 +99,6 @@ results/                logs, figures, checkpoint, videos and provenance
 
 The upstream `src/main.py` remains a demonstration of `BaseEnv` and its original action semantics. Use `python -m demo` for this vehicle implementation. All new simulation and optimization logic uses JAX; Pillow and imageio are used only for rendering, and NumPy/JSON for serialization and analysis.
 
-## Before submitting
-
-1. Read the completed reports and run the code to verify the submission.
-2. Verify the author field and typed signature.
-3. Put the implementation in your own GitHub repository and include the small checkpoint, videos, figures, logs, reports, and source. Exclude `.venv/` and temporary files.
-4. Create/update a branch named `Submission` with the final reviewed contents, then send its repository link yourself using the course's required channel.
-5. The brief gives a deadline of November 20, 2026 at 23:59, without a timezone. Verify the course timezone. Freeze `Submission` after the deadline until grading is complete.
-
-This workspace was cloned from the public starter. Its `origin` initially points to the course repository; do not push your solution to that origin. No external publication or message is part of the local implementation.
-
-A local branch named `Submission` has been prepared. The solution files are uncommitted and ready for review before making the final commit. The ZIP contains the implementation and results, without Git metadata. Rebuild it after editing with `python scripts/package_submission.py`.
-
 ## Attribution
 
 The original base class, coordinate helpers, ray-intersection geometry, maps, and renderer are supplied by [InnoRL/IAEML-assignment](https://github.com/InnoRL/IAEML-assignment). The new planner, bicycle environment, PPO trainer, evaluation, tests, and recorder extend that scaffold. Algorithm and documentation references appear in the reports. `results/source.json` identifies the upstream revision and artifact checksums.
